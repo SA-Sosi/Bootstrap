@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <link rel="shortcut icon" href="../class-4-images/images/tea.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+<style>
+    #flex-container{
+        height: 150px;
+        background-color: chocolate;
+    }
+</style>
+
+</head>
+<body>
+     <div class="container">
+        <h1>Flex layout 1</h1>
+            <div class="d-flex flex-row">        <!---d-flex kora mane ekta row te pasapasi sajano.-->
+                <div>star</div>
+                <div>moon</div>
+                <div>sun</div>
+            </div>
+    </div>
+
+
+    <div class="container">
+        <h1>Flex layout 2</h1>
+            <div class="d-flex flex-row-reverse">        <!---dan dik theke show korbe.-->
+                <div class="p-2">star</div>
+                <div class="p-2">moon</div>
+                <div class="p-2">sun</div>
+            </div>
+    </div>
+
+
+    <div class="container">
+        <h1>Flex layout 3</h1>
+            <div class="d-flex flex-row bd-highlight mb-3 bg-warning">
+                <div class="p-2 bd-highlight">sun 1</div>
+                <div class="p-2 bd-highlight">moon 2</div>
+                <div class="p-2 bd-highlight">earth 3</div>
+            </div>
+            <div class="d-flex flex-row-reverse bd-highlight bg-danger">
+                <div class="p-2 bd-highlight">neptune 1</div>
+                <div class="p-2 bd-highlight">newton 2</div>
+                <div class="p-2 bd-highlight">jupiter 3</div>
+            </div>
+    </div>
+    <div class="container">
+        <h3>Flex layout 4</h3>
+            <div id="flex-container" class="d-flex justify-content-around m-3 bg-warning align-items-center">
+                <div class="p-2 bd-highlight">sun 1</div>
+                <div class="p-2 bd-highlight">moon 2</div>
+                <div class="p-2 bd-highlight">earth 3</div>
+            </div>
+            <div class="d-flex justify-content-center p-2 bg-danger">
+                <div class="p-2 bd-highlight">neptune 1</div>
+                <div class="p-2 bd-highlight">newton 2</div>
+                <div class="p-2 bd-highlight">jupiter 3</div>
+            </div>
+<br><br>
+            <div class="d-flex flex-lg-row flex-sm-column flex-md-column-reverse bg-danger">
+                <div class="p-2 bd-highlight">neptune 1</div>
+                <div class="p-2 bd-highlight">newton 2</div>
+                <div class="p-2 bd-highlight">jupiter 3</div>
+            </div>
+    </div>
+    
+
+                    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
